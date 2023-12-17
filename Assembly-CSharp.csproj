@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\C#\PythonUpdate.cs" />
-    <Compile Include="Assets\C#\SerializePythonFields.cs" />
     <Compile Include="Assets\C#\PythonStartOnly.cs" />
   </ItemGroup>
   <ItemGroup>

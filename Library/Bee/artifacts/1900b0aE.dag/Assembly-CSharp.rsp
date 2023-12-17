@@ -355,7 +355,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/C#/PythonStartOnly.cs"
 "Assets/C#/PythonUpdate.cs"
-"Assets/C#/SerializePythonFields.cs"
 -langversion:9.0
 
 /deterministic
