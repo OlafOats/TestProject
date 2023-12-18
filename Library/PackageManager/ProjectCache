@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638381405727522177
-    m_Hash: 3249919563
+      ticks: 638384377526777529
+    m_Hash: 2010894505
   m_LockFileStatus:
     m_FilePath: C:/GitPath/TestProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638381405727632110
-    m_Hash: 2447300309
+      ticks: 638384377526892941
+    m_Hash: 2589644940
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -259,53 +259,98 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.scripting.python@6.0.1
+- packageId: com.unity.inputsystem@1.6.3
   testable: 0
   isDirectDependency: 1
-  version: 6.0.1
+  version: 1.6.3
   source: 1
-  resolvedPath: C:\GitPath\TestProject\Library\PackageCache\com.unity.scripting.python@6.0.1
-  assetPath: Packages/com.unity.scripting.python
-  name: com.unity.scripting.python
-  displayName: Python Scripting
+  resolvedPath: C:\GitPath\TestProject\Library\PackageCache\com.unity.inputsystem@1.6.3
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
   author:
     name: 
     email: 
     url: 
-  category: Editor
-  type: asset
-  description: Python Scripting is an integration of the open-source Python for .NET
-    project. This package provides the means to import the Python Runtime Environment
-    as a namespace and execute Python scripts from the Unity Editor.
+  category: 
+  type: assets
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
   status: 0
   errors: []
   versions:
     all:
-    - 2.0.0-preview.6
-    - 2.0.1-preview.2
-    - 2.1.0-preview.1
-    - 2.1.1-preview.1
-    - 4.0.0-exp.5
-    - 4.0.0-pre.1
-    - 5.0.0-pre.5
-    - 6.0.0
-    - 6.0.1
-    - 7.0.0-pre.1
-    - 7.0.0
-    - 7.0.1
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
     compatible:
-    - 6.0.0
-    - 6.0.1
-    - 7.0.0-pre.1
-    - 7.0.0
-    - 7.0.1
-    recommended: 6.0.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    recommended: 1.6.3
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords:
-  - python
-  - python.net
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
   registry:
     id: main
     name: 
@@ -316,16 +361,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638158687830000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.scripting.python@6.0/manual/index.html
+  datePublishedTicks: 638251794420000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.scripting.python.git
-    revision: 0f72a3b9bb5af41c1cab9e5a6983bc2399c5d0cb
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: 0d0891efc00ce912af6f03974eac0b8afd20a8ac
     path: 
   unityLifecycle:
-    version: 6.0.0
+    version: 1.6.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
